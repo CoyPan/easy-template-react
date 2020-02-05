@@ -29,7 +29,7 @@ module.exports = {
             use: [{
                 loader: MiniCssExtractPlugin.loader,
                 options: {
-                    //publicPath: paths.prodAssetsPath.replace('js', 'cssn') // 确实传进去了，但不知道为啥不生效
+                    
                 }
             }, 'css-loader', 'postcss-loader', 'sass-loader']
         }]
