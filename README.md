@@ -1,1 +1,44 @@
 ## react项目模板
+
+
+### 目录说明
+```
+.
+|____.babelrc // babel配置
+|____LICENSE // 项目协议
+|____dist // 打包产出目录
+| |____manifest.6f0da2ac.js
+| |____app.aa272645.js
+| |____index.html
+| |____app.6cbbeb23.css
+| |____app.aa272645.js.LICENSE.txt
+| |____vendors.dc8a01c8.js.LICENSE.txt
+| |____vendors.dc8a01c8.js
+| |____assets-manifest.json
+|____README.md 
+|____.gitignore
+|____package-lock.json
+|____package.json
+|____build 
+| |____plugins
+| | |____MyPlugin.js // 自定义的webpack插件
+| |____server
+| | |____buildServer.js // 打包脚本
+| | |____devServer.js // 本地开发server
+| |____webpackConfig // webpack配置
+| | |____webpack.dev.config.js // 开发时配置
+| | |____webpack.base.config.js // 基本配置
+| | |____webpack.build.config.js // 打包时配置
+| | |____devProxyConfig.js // 本地开发代理配置
+|____postcss.config.js // postcss 配置
+|____src // 项目代码
+| |____template // html模板
+| | |____template.html
+| |____lib // 公用库代码
+| | |____tools.js
+| |____index.js // 入口文件js
+| |____index.scss // 入口文件css
+```
+
+### 自定义
+修改`build`目录下的代码即可
