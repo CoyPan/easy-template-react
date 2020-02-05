@@ -29,12 +29,12 @@
 | | |____webpack.dev.config.js // 开发时配置
 | | |____webpack.base.config.js // 基本配置
 | | |____webpack.build.config.js // 打包时配置
-| | |____devProxyConfig.js // 本地开发代理配置
+| | |____devProxyConfig.js // 本地开发代理配置
 |____postcss.config.js // postcss 配置
 |____src // 项目代码
 | |____template // html模板
 | | |____template.html
-| |____lib // 公用库代码
+| |____lib // 公用库代码
 | | |____tools.js
 | |____index.js // 入口文件js
 | |____index.scss // 入口文件css
