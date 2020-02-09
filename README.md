@@ -37,5 +37,6 @@
 2、安装其他依赖，直接`npm install [package]`即可。
 
 ### 命令
-- 本地开发： `npm run dev`
-- 打包： `npm run build`
+- 安装依赖: `npm install`
+- 本地开发: `npm run dev`
+- 打包: `npm run build`
