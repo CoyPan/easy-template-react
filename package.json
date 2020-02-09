@@ -1,23 +1,12 @@
 {
   "name": "easy-template-react",
   "version": "0.0.1",
-  "description": "自己使用的一套react开发环境模板",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development node build/server/devServer.js",
     "build": "cross-env NODE_ENV=production node build/server/buildServer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/CoyPan/easy-template-react.git"
-  },
-  "author": "coypan",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CoyPan/easy-template-react/issues"
-  },
-  "homepage": "https://github.com/CoyPan/easy-template-react#readme",
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
