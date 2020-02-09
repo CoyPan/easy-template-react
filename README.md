@@ -33,4 +33,9 @@
 ```
 
 ### 自定义
-修改`build`目录下的代码即可
+1、更改打包配置，直接修改`build`目录下的代码即可。
+2、安装其他依赖，直接`npm install [package]`即可。
+
+### 命令
+- 本地开发： `npm run dev`
+- 打包： `npm run build`
