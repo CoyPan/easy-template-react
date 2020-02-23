@@ -22,7 +22,7 @@ app.use(require("webpack-hot-middleware")(compiler));
 
 // add proxyConfig
 Object.keys(devProxyConfig).forEach(item => {
-    const options = proxyConfig[item];
+    const options = devProxyConfig[item];
     app.use(item, require("http-proxy-middleware")(options));
 });
 
