@@ -3,7 +3,7 @@
  */
 
 export default {
-    log() {
-        console.log('This is log tool');
-    }
+  log () {
+    console.log('This is log tool');
+  }
 };
